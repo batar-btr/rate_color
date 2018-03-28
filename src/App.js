@@ -4,6 +4,7 @@ import './App.css'
 import TestForm from './components/TestForm/TestForm'
 import ColorList from './components/ColorList/ColorList'
 import { v4 } from 'uuid'
+import MemberList from './components/MemberList/MemberList'
 
 class App extends Component {
 
@@ -50,6 +51,7 @@ class App extends Component {
         </header>
         <TestForm onNewColor={this.addColor} />
         <ColorList colors={this.state.colors} remove={this.removeColor} rate={this.rateColor} />
+        <MemberList count={200}/>
 
       </div>
     );

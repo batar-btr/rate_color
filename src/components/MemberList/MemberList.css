@@ -1,0 +1,10 @@
+.MemberList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.MemberList > * {
+    width: 25%;
+    flex-basis: 25%;
+}

@@ -1,0 +1,25 @@
+.Member {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.Member:hover {
+    background-color: #666;
+}
+.Member h1 {
+    font-size: 16px;
+}
+.Member div {
+    margin: 0 auto;
+    text-align: left;
+}
+.Member img {
+    padding: 20px;
+}
+.Member a {
+    color: #E2E2E2;
+    font-size: 10px;
+}
