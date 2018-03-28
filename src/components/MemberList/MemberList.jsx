@@ -32,6 +32,9 @@ class MemberList extends Component {
                 this.setState({ error })
             })
     }
+    shouldComponentUpdate(nextProps, nextState) {
+        return this.state.members.length !== nextState.members.length
+    }
     componentWillUpdate(nextProps, nextState) {
         console.log('[MEMBER LIST] --- ComponentWillUpdate');
     }
