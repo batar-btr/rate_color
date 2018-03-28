@@ -1,0 +1,25 @@
+.Color {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.Color p {
+    margin: 20px 0;
+}
+.ColorBlock {
+    height: 100px;
+}
+.CloseButton {
+    margin: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 10px;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: none;
+    background-color: white
+}

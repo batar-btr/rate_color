@@ -1,0 +1,9 @@
+.ColorList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.ColorList > * {
+    flex-basis: 25%
+}
